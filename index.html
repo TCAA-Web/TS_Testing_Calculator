@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <title>TS Calculator</title>
+  </head>
+  <body>
+    <h1>Super Calculus TS2000 v.2</h1>
+    <main id="root">
+      <div id="calc">
+        <input disabled id="displayField" class="result" type="text" />
+        <div class="numbers">
+          <button class="buttonStyle">1</button>
+          <button class="buttonStyle">2</button>
+          <button class="buttonStyle">3</button>
+          <button class="buttonStyle">4</button>
+          <button class="buttonStyle">5</button>
+          <button class="buttonStyle">6</button>
+          <button class="buttonStyle">7</button>
+          <button class="buttonStyle">8</button>
+          <button class="buttonStyle">9</button>
+        </div>
+        <div class="operations">
+          <button id="add" class="buttonStyleSm">+</button>
+          <button id="subtract" class="buttonStyleSm">-</button>
+          <button id="multiply" class="buttonStyleSm">*</button>
+          <button id="divide" class="buttonStyleSm">/</button>
+          <button id="end" class="buttonStyleSm">=</button>
+          <button id="clear" class="buttonStyleSm">C</button>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
